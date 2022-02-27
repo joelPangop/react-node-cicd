@@ -12,7 +12,7 @@ app.use(cors({
 }));
 
 app.get('/names', (req, res) => {
-    res.send("Telmo");
+    res.send("Joel Pangop");
 })
 
 app.listen(5000, () => {
